@@ -1,5 +1,6 @@
 import './App.css';
 import styled from "styled-components/macro";
+import Breadcrumbs from './components/Breadcrumbs'
 
 const HeaderStyles = styled.header`
   text-align: center;
@@ -18,8 +19,8 @@ function App() {
         <p>
           React Sandbox For Css for Js course
         </p>
-
       </HeaderStyles>
+      <Breadcrumbs/>
     </div>
   );
 }
